@@ -1,9 +1,9 @@
 package com.example.github;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(),"Hello", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Hello 2", Toast.LENGTH_LONG).show();
     }
 }
