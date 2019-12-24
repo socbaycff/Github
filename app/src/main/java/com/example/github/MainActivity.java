@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(),"Hello before database09090",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Hello before database",Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), "Hello database2", Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), "add more", Toast.LENGTH_LONG).show();
     }
